@@ -16,7 +16,7 @@ namespace PracticalTaskConsoleApp.czerwiec2023_6
         public void ShowInfo()
         {
             Console.WriteLine($"Tytuł: {name}");
-            Console.WriteLine($"Liczba wypożyczeń: {number}");
+            Console.WriteLine($"Liczba wypożyczeń teraz : {number}");
         }
 
         public void SetNumber(int newNumber)
@@ -27,7 +27,7 @@ namespace PracticalTaskConsoleApp.czerwiec2023_6
         public void Add(int amount)
         {
             number += amount;
-            Console.WriteLine($"Liczba wypożyczeń teraz: {number}");
+            Console.WriteLine($"Liczba wypożyczeń: {number}");
         }
     }
 
@@ -37,10 +37,10 @@ namespace PracticalTaskConsoleApp.czerwiec2023_6
         {
             Movie movie1 = new Movie("Szybcy i wściekli", 2);
             movie1.ShowInfo();
-            movie1.Add(6);
+            movie1.Add(3);
             Console.WriteLine();
 
-            Movie movie2 = new Movie("Świat", 3);
+            Movie movie2 = new Movie("Świat", 2);
             movie2.ShowInfo();
             movie2.Add(3);
         }

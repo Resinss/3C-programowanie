@@ -14,11 +14,12 @@ task1.task();
 
 //czerwiec 2023_6
 
-/*
 
+/*
 MovieApp app = new MovieApp();
 app.Run();
 */
+
 
 
 //czerwiec2022
@@ -39,6 +40,7 @@ Task4 zadanie = new Task4();
 zadanie.Uruchom();
 */
 
-
+/*
 Note notatka1 = new Note("zakupy", "jabłka woda mąka ryż");
 notatka1.View();
+*/
