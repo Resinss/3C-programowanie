@@ -213,7 +213,7 @@ internal class Task1
         var q28 = people.MinBy(p => p.Salary);
         Console.WriteLine($"\nZadanie 28\n{q28}");
 
-        // Zadanie 29
+        // Zadaie 29
         var maxAge = people.Max(p => p.Age);
         var q29 = people.Where(p => p.Age == maxAge);
         Print("Zadanie 29", q29);
